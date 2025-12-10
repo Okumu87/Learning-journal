@@ -1,0 +1,79 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+/* global styles */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 1.5;
+}
+
+ul{
+    list-style: none;
+}
+ li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* nav-section */
+
+.nav-section{
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1em;
+
+    h1{
+        font-weight: 600;
+    }
+}
+
+
+nav > ul, .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul{
+    gap: 2.5em;
+}
+
+.logo{
+    gap: .2em;
+}
+
+.logo > img{
+    width: 30px;
+}
+
+nav > ul {
+text-transform: uppercase;
+font-size: .8rem;
+font-weight: 500;
+color:#090909 ;
+}
+
+li a{
+    color: #090909;
+}
+
+/* header */
+
