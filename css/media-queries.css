@@ -20,8 +20,13 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 1.5em;
-    
 
+    h2{
+         line-height: 1;
+         margin-bottom: .3em;
+    }
+    
+/* continue */
     .date{
         font-size: .8rem;
         font-weight: 300;
