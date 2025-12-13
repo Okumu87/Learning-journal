@@ -19,7 +19,13 @@ header{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0 1.5em;
+    padding: 1.5em 1.2em;
+
+    p{
+        font-size: .8rem;
+        line-height: 1.5;
+        margin-top: .5em;
+    }
 
     h2{
          line-height: 1;
@@ -30,7 +36,8 @@ header{
     .date{
         font-size: .8rem;
         font-weight: 300;
-        padding-top: 6em;
+        padding: 4em 0 .5em 0;
+      
        
     }
 }
