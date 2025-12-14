@@ -1,9 +1,5 @@
 /* xs */
 @media (min-width: 290px){
-body{
-                background: yellow;
-
-}
 
 .nav-section{
 
@@ -21,11 +17,7 @@ header{
     background-repeat: no-repeat;
     padding: 1.5em 1.2em;
 
-    p{
-        font-size: .8rem;
-        line-height: 1.5;
-        margin-top: .5em;
-    }
+   
 
     h2{
          line-height: 1;
@@ -42,8 +34,67 @@ header{
     }
 }
 
+ p{
+        font-size: .8rem;
+        line-height: 1.5;
+        margin-top: .5em;
+    }
+
+/* main */
+
+
+
+.article{
+    margin: 1.5em 1em;
+
+    .article-date{
+        margin: .5em 0;
+        font-size: .8rem;
+        font-weight: 300;
+    }
 }
 
+
+.btn-article{
+     display: block;
+    text-align: center;
+    color: #000000;
+    margin: 2.5em  0 3em 0;
+
+}
+
+footer{
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:#202020;
+    padding: 2em 0;
+
+    h4{
+        font-size: .8rem;
+        font-weight: 500;
+    }
+  
+    p{
+        margin: 0;
+        font-weight: 300;
+        font-size: .6rem;
+    }
+}
+
+}
+
+@media(min-width: 416px){
+    body{
+        background: yellow;
+    }
+
+    main{
+      display: flex;
+      gap: 2em;
+    }
+
+}
 
 
 /* s */
