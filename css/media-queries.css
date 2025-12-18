@@ -1,6 +1,8 @@
 /* xs */
 @media (min-width: 290px){
 
+
+
 .nav-section{
 
     h1{
@@ -17,7 +19,9 @@ header{
     background-repeat: no-repeat;
     padding: 1.5em 1.2em;
 
-   
+   /* img{
+        display: none;
+   } */
 
     h2{
          line-height: 1;
@@ -84,41 +88,26 @@ footer{
 
 }
 
-@media(min-width: 416px){
-    body{
-        background: yellow;
-    }
 
-    main{
-      display: flex;
-      gap: 2em;
-    }
 
+@media(min-width: 768px){
+header{
+  background-image: url(../images/blog-image-hero__1280.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10em 0;
 }
 
-
-/* s */
-
-@media (min-width: 600px){
-body{
-                background: red;
-}
-}  /* sm */ 
-@media (min-width: 768px) {
-body{
-                background: blue;
+.articles{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-} /* md */ 
-@media (min-width: 1024px) {
-body{
-                background: green;
-}
-}
-                /* lg */ 
-@media (min-width: 1280px){
-body{
-                background: pink;
+.article{
+    width: 15%;
 }
 
 }
